@@ -1,61 +1,27 @@
-#projects {
+#arc {
     background-color: #E3D5CA;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#project {
-    padding: 30px;
-    border: 1px solid black;
-    display: flex;
     align-items: center;
-    flex-direction: column;
-    width: 400px;
-    height: 375px;
     text-align: center;
 }
 
-#project h1 {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#project p {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#project a {
-    text-decoration: none;
+#arc p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
     color: black;
+    text-decoration: none;
 }
 
-#project a:hover {
-    opacity: 0.6;
-    cursor: pointer;
+#arc a {
+    text-decoration: none;
 }
 
-#fin {
-    width: 350px;
+#arc a:hover {
+    opacity: 0.5;
+}
+
+#bates {
     height: 200px;
-}
-
-#orb {
-    width: 250px;
-    height: 250px;
-}
-
-#bee {
-    width: 275px;
-    height: 275px;
-}
-
-#koala {
-    width: 300px;
-    height: 300px;
-}
-
-.break {
-    padding-bottom: 50px;
+    width: 200px;
 }
