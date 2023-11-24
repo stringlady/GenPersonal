@@ -6,15 +6,15 @@ function CreatFic() {
         <div id='fic'>
             <div>
                 <img id="book" src={book2}/>
-                <a href="/fiction/0" target='_blank'><p>Daredevil</p></a>
+                <a href="/fiction/0"><p>Daredevil</p></a>
             </div>
             <div>
                 <img id="book" src={book2}/>
-                <a href="/fiction/1" target='_blank'><p>Favored Five</p></a>
+                <a href="/fiction/1"><p>Favored Five</p></a>
             </div>
             <div>
                 <img id="book" src={book2}/>
-                <a href="/fiction/2" target='_blank'><p>A Mother's Love <br/> (Novel Opening)</p></a>
+                <a href="/fiction/2"><p>A Mother's Love <br/> (Novel Opening)</p></a>
             </div>
         </div>
     )

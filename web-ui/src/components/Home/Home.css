@@ -55,3 +55,16 @@
 #bates2 {
     width: 1200px;
 }
+
+#label4 {
+    background-color: #F5EBE0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#label4 h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}

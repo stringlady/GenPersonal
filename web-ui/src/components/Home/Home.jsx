@@ -6,6 +6,7 @@ import Editing from '../Editing/Editing';
 import CreatFic from '../CreatFic/CreatFic';
 import Articles from '../Articles/Articles';
 import bates from '../../assets/bates2.png'
+import Resume from '../Resume/Resume';
 
 function Home() {
     return (
@@ -31,6 +32,10 @@ function Home() {
                 <img id="bates2" src={bates}/>
             </div>
             <Articles/>
+            <div id="label4">
+                <h3>Resume</h3>
+            </div>
+            <Resume/>
         </div>
     )
 }
