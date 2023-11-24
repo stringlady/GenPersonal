@@ -1,18 +1,21 @@
 import './Full.css'
 import { useParams } from 'react-router-dom'
+import nO from '../../assets/novelOpening.pdf'
+import f from '../../assets/favored.pdf'
+import d from '../../assets/daredevil.pdf'
 
 function Full() {
     let { url } = useParams();
 
     const cf = [
-        {0: "https://drive.google.com/file/d/1HgVNiZwpFe-HIaweSNuv4YRhxX5P7kHv/preview",
-         1: "https://drive.google.com/file/d/1_ZV-JhasBFvPd6NZMox05K9uf74d1X-4/preview",
-         2: "https://drive.google.com/file/d/1Vt2sIHP7DhzB1toxMWlDN88R3sNqPLOI/preview"}
+        {0: d,
+         1: f,
+         2: nO}
     ]
 
     return (
         <div id='full'>
-            <iframe src={cf[0][url]}></iframe>
+            <object data={cf[0][url]}></object>
         </div>
     )
 }

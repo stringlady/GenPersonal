@@ -1,12 +1,14 @@
 import './A_Full.css'
 import { useParams } from 'react-router-dom'
+import arc1 from '../../assets/arc1.pdf'
+import arc2 from '../../assets/arc2.pdf'
 
 function A_Full() {
     let { url } = useParams();
 
     const articles = [
-        {0: "https://drive.google.com/file/d/1tvSp7-LPfFHxggYr85mN6eynAndhKejV/preview",
-         1: "https://drive.google.com/file/d/1Y5byTLm6EmxJfueT0RRy_wWVHVSuJNzZ/preview"}
+        {0: arc1,
+         1: arc2}
     ]
 
     return (

@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-#full iframe {
+#full object {
     height: 100vh;
     width: 100vw;
 }
