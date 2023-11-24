@@ -1,7 +1,3 @@
-export const articles = [
-    {0: "https://drive.google.com/file/d/1tvSp7-LPfFHxggYr85mN6eynAndhKejV/preview",
-     1: "https://drive.google.com/file/d/1Y5byTLm6EmxJfueT0RRy_wWVHVSuJNzZ/preview"}
-]
 export const cf = [
     {0: "https://drive.google.com/file/d/1HgVNiZwpFe-HIaweSNuv4YRhxX5P7kHv/preview",
      1: "https://drive.google.com/file/d/1_ZV-JhasBFvPd6NZMox05K9uf74d1X-4/preview",
