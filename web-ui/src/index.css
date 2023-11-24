@@ -11,3 +11,7 @@ body, html {
   height: 100vh;
   width: 100vw;
 }
+
+a:hover {
+  opacity: 0.5;
+}
