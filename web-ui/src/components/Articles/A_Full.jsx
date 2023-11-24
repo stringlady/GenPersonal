@@ -1,6 +1,6 @@
 import './A_Full.css'
 import { useParams } from 'react-router-dom'
-import { articles } from '../../constant'
+import { articles } from '../../constants/constant'
 
 function A_Full() {
     let { url } = useParams();
