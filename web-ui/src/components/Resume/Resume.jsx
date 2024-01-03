@@ -1,12 +1,11 @@
 import './Resume.css'
-import resume from '../../assets/gen-resume.pdf'
 
 function Resume() {
     return (
         <div id="res">
             <iframe
                 id="obj"
-                src="https://drive.google.com/file/d/1LP3NG9w1d6O_kzdekCiUgL6sUNvVVZZv/preview">
+                src="https://drive.google.com/file/d/1beqgS1oXtL1UlKgzVOy7euQ5ALwNhQW_/preview">
                 </iframe>
         </div>
     )
