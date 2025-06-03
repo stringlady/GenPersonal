@@ -5,7 +5,7 @@ function Resume() {
         <div id="res">
             <iframe
                 id="obj"
-                src="https://drive.google.com/file/d/1t4UJgSBFeKW7_OxvD2kPxjwI_jU14lLK/preview">
+                src="https://drive.google.com/file/d/1beqgS1oXtL1UlKgzVOy7euQ5ALwNhQW_/preview">
                 </iframe>
         </div>
     )
