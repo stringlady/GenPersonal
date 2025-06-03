@@ -6,7 +6,7 @@ function Hero() {
         <div id="hero">
             <div>
                 <h1>Genesis Bussey</h1>
-                <h2>Bates College | <br/> English Major | Africana Minor</h2>
+                <h2>Senior | Bates College | <br/> English Major | Africana Minor</h2>
             </div>
             <div>
                 <img className='me' src={me}/>
